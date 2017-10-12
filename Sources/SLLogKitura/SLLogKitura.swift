@@ -2,23 +2,21 @@ import Foundation
 import SLLog
 import LoggerAPI
 
-public class SLLogKitura: LogHandler {
-    open func handle(log: String, level: SLLog.LogType, spot: Occurrence, message: Any) {}
-}
+public class SLLogKitura: LogProvider {}
 
 extension SLLogKitura: LoggerAPI.Logger {
     public func log(_ type: LoggerMessageType, msg: String, functionName: String, lineNum: Int, fileName: String) {
         switch type {
         case .verbose:
-            SLLog.v(msg, fileName, UInt(lineNum))
+            send(level: SLLog.LogType.verbose, spot: Occurrence(file: fileName, line: UInt(lineNum)), message:msg)
         case .entry, .exit, .debug:
-            SLLog.d(msg, fileName, UInt(lineNum))
+            send(level: SLLog.LogType.debug, spot: Occurrence(file: fileName, line: UInt(lineNum)), message:msg)
         case .info:
-            SLLog.i(msg, fileName, UInt(lineNum))
+            send(level: SLLog.LogType.info, spot: Occurrence(file: fileName, line: UInt(lineNum)), message:msg)
         case .warning:
-            SLLog.w(msg, fileName, UInt(lineNum))
+            send(level: SLLog.LogType.warning, spot: Occurrence(file: fileName, line: UInt(lineNum)), message:msg)
         case .error:
-            SLLog.e(msg, fileName, UInt(lineNum))
+            send(level: SLLog.LogType.error, spot: Occurrence(file: fileName, line: UInt(lineNum)), message:msg)
         }
     }
     

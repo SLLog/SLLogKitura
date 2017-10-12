@@ -28,5 +28,5 @@ import SLLogKitura
 ```
 ### Setup SLLoger
 ```swift
-SLLog.addHandler(try! SLLogKitura())
+SLLog.addProvider(SLLogKitura())
 ```
