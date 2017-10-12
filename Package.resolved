@@ -12,11 +12,11 @@
       },
       {
         "package": "SLLog",
-        "repositoryURL": "https://github.com/shial4/SLLog.git",
+        "repositoryURL": "/Users/shial/Development/_Swift/SLLog",
         "state": {
-          "branch": null,
-          "revision": "a1c069dea137e6521c673cdbd06ccf0d946785d0",
-          "version": "1.0.0"
+          "branch": "master",
+          "revision": "50519a20d7822a1cc45cbdc50c60be41e9004086",
+          "version": null
         }
       }
     ]
