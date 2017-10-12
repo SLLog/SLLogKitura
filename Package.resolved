@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "LoggerAPI",
+        "repositoryURL": "https://github.com/IBM-Swift/LoggerAPI",
+        "state": {
+          "branch": null,
+          "revision": "6b62fe66da9b8794d6581e5c341710eea3173cd4",
+          "version": "1.7.1"
+        }
+      },
+      {
+        "package": "SLLog",
+        "repositoryURL": "https://github.com/shial4/SLLog.git",
+        "state": {
+          "branch": null,
+          "revision": "a1c069dea137e6521c673cdbd06ccf0d946785d0",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
