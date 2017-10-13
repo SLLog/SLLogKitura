@@ -2,7 +2,9 @@ import Foundation
 import SLLog
 import LoggerAPI
 
-public class SLLogKitura: LogProvider {}
+public class SLLogKitura: LogProvider {
+    public init() {}
+}
 
 extension SLLogKitura: LoggerAPI.Logger {
     public func log(_ type: LoggerMessageType, msg: String, functionName: String, lineNum: Int, fileName: String) {
