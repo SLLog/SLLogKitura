@@ -16,7 +16,7 @@ Just plug and play. Easy way to pass kitura log to SLLoger.
 
 Add the following dependency to your `Package.swift` file:
 ```swift
-.package(url: "https://github.com/shial4/SLLogKitura.git", from: "1.0.0"),
+.package(url: "https://github.com/SLLog/SLLogKitura", from: "1.0.0"),
 ```
 ## 💊 How To Start
 
