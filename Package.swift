@@ -12,7 +12,7 @@ let package = Package(
     ],
     dependencies: [
          .package(url: "https://github.com/IBM-Swift/LoggerAPI.git", from: "1.7.1"),
-         .package(url: "https://github.com/shial4/SLLog.git", from: "1.0.1"),
+         .package(url: "https://github.com/SLLog/SLLog", from: "1.0.1"),
     ],
     targets: [
         .target(
