@@ -1,4 +1,4 @@
-// swift-tools-version:4.0
+// swift-tools-version:4.2
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -11,8 +11,8 @@ let package = Package(
             targets: ["SLLogKitura"]),
     ],
     dependencies: [
-         .package(url: "https://github.com/IBM-Swift/LoggerAPI.git", from: "1.7.1"),
-         .package(url: "https://github.com/shial4/SLLog.git", from: "1.0.1"),
+         .package(url: "https://github.com/IBM-Swift/LoggerAPI.git", from: "1.7.3"),
+         .package(url: "https://github.com/shial4/SLLog.git", from: "1.0.8"),
     ],
     targets: [
         .target(
