@@ -11,8 +11,8 @@ let package = Package(
             targets: ["SLLogKitura"]),
     ],
     dependencies: [
-         .package(url: "https://github.com/IBM-Swift/LoggerAPI.git", from: "1.7.3"),
-         .package(url: "https://github.com/shial4/SLLog.git", from: "1.0.8"),
+         .package(url: "https://github.com/IBM-Swift/LoggerAPI.git", from: "1.8.0"),
+         .package(url: "https://github.com/shial4/SLLog.git", from: "1.1.0"),
     ],
     targets: [
         .target(

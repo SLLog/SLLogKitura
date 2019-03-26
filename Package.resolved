@@ -6,8 +6,8 @@
         "repositoryURL": "https://github.com/IBM-Swift/LoggerAPI.git",
         "state": {
           "branch": null,
-          "revision": "6b62fe66da9b8794d6581e5c341710eea3173cd4",
-          "version": "1.7.1"
+          "revision": "d0ccb4158b83f8692531892a9c894bb757593c6f",
+          "version": "1.8.0"
         }
       },
       {
@@ -15,8 +15,8 @@
         "repositoryURL": "https://github.com/shial4/SLLog.git",
         "state": {
           "branch": null,
-          "revision": "a322ed7890f6ab8ad9eb7c29c02a2ee7b8dae00e",
-          "version": "1.0.1"
+          "revision": "857790f4f96231498c8f4218b2aafe148c8f631f",
+          "version": "1.1.0"
         }
       }
     ]
